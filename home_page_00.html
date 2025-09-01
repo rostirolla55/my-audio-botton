@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
@@ -34,14 +34,12 @@
         }
     </style>
 </head>
-<body>
 
+<body>
     <button id="playButton">▶️ Ascolta il testo</button>
 
     <script>
-        // Sostituisci "PERCORSO_PUBBLICO_DEL_TUO_AUDIO_MP3" con il link pubblico del tuo file audio
-        const audioUrl = https://drive.google.com/uc?export=view&id=1Uk_4ZZ1BUw9eG3JOh59666Zt6ZpoY7pxJXMzWZGdqvc
-        
+        const audioUrl = "Home_page_00.mp3";
         const playButton = document.getElementById('playButton');
         const audio = new Audio(audioUrl);
 
@@ -49,7 +47,5 @@
             audio.play();
         });
     </script>
-
 </body>
 </html>
-
